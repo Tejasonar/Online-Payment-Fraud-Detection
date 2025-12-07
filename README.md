@@ -74,12 +74,12 @@ Recall is the most important metric, because failing to detect fraud is more har
 
 7 Best Performing Model
 
-XGBoost 
-
-Why?
-Handles imbalanced data better.
-Captures complex non-linear fraud patterns.
-Lower false negatives than simple models.
+Random Forest is the best performing model
+because:
+Highest F1-score (0.68) → best measure for imbalanced fraud data
+Good precision (0.56) → fewer false alarms
+High recall (0.86) → catches most fraud cases
+Best overall balance between precision & recall
 
 ---
 
